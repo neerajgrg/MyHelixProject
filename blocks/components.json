@@ -5,6 +5,12 @@
     }, 
     {
       "name": "component2"
+    },
+    {
+      "name": "component3"
+    }, 
+    {
+      "name": "component4"
     }
   ]
 }
