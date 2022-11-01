@@ -1,3 +1,10 @@
 {
-  "name": "my extension"
+  "components" : [
+    {
+      "name": "component1"
+    }, 
+    {
+      "name": "component2"
+    }
+  ]
 }
