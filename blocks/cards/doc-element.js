@@ -1,6 +1,8 @@
 
 
-var body = DocumentApp.getActiveDocument().getBody();
+var doc = DocumentApp.getActiveDocument();
+var body = doc.getBody();
+
       // Create a two-dimensional array containing the cell contents.
 var table = [
   ['  Cards '],
@@ -8,7 +10,7 @@ var table = [
 ];
 
 // Build a table from the array.
-
+var cursor = doc.getCursor();
 var element = cursor.getElement();
 var parent = element.getParent();
 //here table is an array of cells like
