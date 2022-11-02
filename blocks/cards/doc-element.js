@@ -13,4 +13,7 @@
   var cell1 = row.getCell(0);
   var cell2 = row.getCell(1);
 
-  cell2.merge();
+  // Check the contents of cells 1 and 2
+  Logger.log('Cell1 contents: %s', cell1.getText());
+  Logger.log('Cell2 contents: %s', cell2.getText());
+
