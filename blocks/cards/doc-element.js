@@ -7,4 +7,4 @@
 
   var table = body.appendTable(cells);
    
-  table.getCell(0,1).merge();
+
