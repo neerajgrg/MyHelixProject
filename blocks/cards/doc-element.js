@@ -7,13 +7,4 @@
 
   var table = body.appendTable(cells);
    
-  var row = table.getRow(0);
-
-  // Get the two cells this row.
-  var cell1 = row.getCell(0);
-  var cell2 = row.getCell(1);
-
-  // Check the contents of cells 1 and 2
-  Logger.log('Cell1 contents: %s', cell1.getText());
-  Logger.log('Cell2 contents: %s', cell2.getText());
-
+  table.getCell(0,1).merge();
