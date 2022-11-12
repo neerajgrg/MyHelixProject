@@ -355,7 +355,6 @@ export async function loadBlock(block) {
       const decorationComplete = new Promise((resolve) => {
         (async () => {
           try {
-            const mod2 = await import(`https://neerajgrg.github.io/MyHelixBlocks/blocks/${blockName}/${blockName}.js`);
             const mod = await import(`../blocks/${blockName}/${blockName}.js`);
             if (mod.default) {
               await mod.default(block);
