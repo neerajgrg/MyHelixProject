@@ -78,7 +78,7 @@ const scrollTabIntoView = (e) => {
 };
 
 let initCount = 0;
-const init = (e) => {
+export default function  init (e)  {
   const rows = e.querySelectorAll(':scope > div');
   /* c8 ignore next */
   if(!rows.length) return;
@@ -158,5 +158,3 @@ const init = (e) => {
   initTabs(e, config);
   initCount++;
 }
-
-export default init;
