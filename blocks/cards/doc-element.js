@@ -1,6 +1,6 @@
 
 [
   ['  Cards '],
-  [' <card_image> ', ' <card_description> ']
+  [' https://raw.githubusercontent.com/neerajgrg/MyHelixProject/main/blocks/cards/preview.png ', ' <card_description> ']
 ];
 
